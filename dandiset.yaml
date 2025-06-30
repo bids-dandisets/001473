@@ -3,6 +3,7 @@
 # and obtained from the dandiarchive.
 '@context': 
   https://raw.githubusercontent.com/dandi/schema/master/releases/0.6.10/context.json
+about: []
 access:
 - schemaKey: AccessRequirements
   status: dandi:OpenAccess
@@ -19,8 +20,8 @@ assetsSummary:
     schemaKey: MeasurementTechniqueType
   - name: one-photon microscopy technique
     schemaKey: MeasurementTechniqueType
-  numberOfBytes: 35261650848
-  numberOfFiles: 4
+  numberOfBytes: 55770644872
+  numberOfFiles: 5
   numberOfSubjects: 3
   schemaKey: AssetsSummary
   species:
@@ -41,8 +42,15 @@ contributor:
   roleName:
   - dcite:ContactPerson
   schemaKey: Person
+- awardNumber: R01 NS121918
+  identifier: https://ror.org/01cwqze88
+  name: NIH
+  roleName:
+  - dcite:Funder
+  schemaKey: Organization
 dateCreated: '2025-06-06T00:44:44.280653+00:00'
 description: raw calcium imaging data from freely moving animals
+ethicsApproval: []
 id: DANDI:001473/draft
 identifier: DANDI:001473
 license:
@@ -50,8 +58,10 @@ license:
 manifestLocation:
 - https://api.dandiarchive.org/api/dandisets/001473/versions/draft/assets/
 name: R01 NS121918 data
+relatedResource: []
 repository: https://dandiarchive.org
 schemaKey: Dandiset
 schemaVersion: 0.6.10
 url: https://dandiarchive.org/dandiset/001473/draft
 version: draft
+wasGeneratedBy: []
