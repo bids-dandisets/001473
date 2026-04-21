@@ -4,7 +4,9 @@
     "HEDVersion": "8.3.0",
     "Description": "raw calcium imaging data from freely moving animals",
     "DatasetType": "raw",
-    "Authors": [],
+    "Authors": [
+        "Wu, Jiang"
+    ],
     "License": "CC-BY-4.0",
     "GeneratedBy": [
         {
